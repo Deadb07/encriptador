@@ -1,0 +1,71 @@
+main {
+    height: 93vh;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    padding: 0;
+}
+
+.contenedor-izq {
+    width: 70rem;
+    height: 80%;
+    margin-right: 5rem;
+}
+
+.contenedor-izq p {
+    margin-top: 3rem;
+}
+
+.input-texto {
+    width: 80%;
+    height: 63%;
+    font-size: 3rem;
+    margin-top: 3.5rem;
+}
+
+.contenedor-btns {
+    position: absolute;
+    width: 105rem;
+    margin-top: 33rem;
+}
+
+.btn-encriptar {
+    margin: 0 6rem;
+}
+
+.btn-desencriptar {
+    margin-right: 13rem;
+}
+
+.btn-copiar {
+    margin-right: 1rem;
+    opacity: 0.9;
+}
+
+.contenedor-der {
+    width: 28rem;   
+    height: 80%;
+    margin-top: 0;
+    box-shadow: 3px 3px 10px lightgrey;
+    border: none;
+    padding: 0 2rem;
+}
+
+.contenedor-texto {
+    justify-content: flex-start;
+}
+
+.contenedor-texto p:nth-child(2) {
+    margin-top: 70%;
+}
+
+.output-texto {
+    width: 90%;
+    height: 65%;
+    margin-top: 15%;
+    font-size: 2.5rem;
+}
+
+footer {
+    margin: 1rem 0 0 0;
+}
