@@ -22,6 +22,7 @@ function encriptar() {
       title: "Oops...",
       confirmButtonColor: "#b9ab9c",
       text: "Solo se permiten letras minusculas y sin acento",
+      
     });
   } else if (texto.length === 0) {
     Swal.fire({
@@ -31,6 +32,7 @@ function encriptar() {
       title: "Oops...",
       confirmButtonColor: "#b9ab9c",
       text: "El campo de texto está vacio, escriba el texto que desea encriptar",
+      font:"Neuton",
     });
   } else {
     document.getElementById("imagen-contder").style.display="none";

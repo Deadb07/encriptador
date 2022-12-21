@@ -60,7 +60,8 @@ main {
   width: 100%;
   height: auto;
   margin-top: 2rem;
-  position: relative;
+  
+  z-index: 1001;
 }
 .btn-encriptar {
   width: 100%;
@@ -75,7 +76,7 @@ main {
   letter-spacing: 0.3rem;
   cursor: pointer;
   margin-bottom: 1rem;
-  z-index: 2000;
+  
 }
 .btn-encriptar:hover {
   transform: scale(1.05);
@@ -98,7 +99,7 @@ main {
   letter-spacing: 0.3rem;
   cursor: pointer;
   margin-bottom: 1rem;
-  z-index: 2000;
+  
 }
 
 .btn-desencriptar:hover {
@@ -122,7 +123,7 @@ main {
   font-size: 1.2rem;
   letter-spacing: 0.3rem;
   cursor: pointer;
-  z-index: 2000;
+  
 }
 
 .btn-copiar:hover {
@@ -145,7 +146,7 @@ main {
   justify-content: center;
   align-items: center;
   position: relative;
-  z-index: 2000;
+  z-index: 1000;
 }
 
 .contenedor-texto {
@@ -208,7 +209,7 @@ footer {
   align-items: center;
   margin-bottom: 2rem;
   position: relative;
-  z-index: 2000;
+  z-index: 1000;
 }
 
 footer span {
@@ -237,6 +238,10 @@ footer span:nth-child(4) {
 .icon_github {
   width: 2rem;
   height: 2rem;
+}
+.swal2-popup{
+  font-family: "Neuton", serif;
+  font-size: 1.28em;
 }
 
 @-webkit-keyframes anim {
@@ -360,7 +365,7 @@ body {
 
 .contain {
   animation-delay: 4s;
-  z-index: 1000;
+  z-index: 800;
   position: fixed;
   top: 0;
   left: 0;
